@@ -15,7 +15,7 @@ main {
     color: #cacaca;
 }
 
-.box-modal-cad-padrao {
+.modal {
     position: relative;
     background: #fff;
     padding: 10px;
@@ -26,11 +26,11 @@ main {
     border-radius: 6px;
 }
 
-.box-modal-cad-padrao .iconify {
+.modal .iconify {
     font-size: 18px;
 }
 
-.box-modal-cad-padrao span {
+.modal span {
     display: block;
     cursor: default;
     margin-top: 8px;

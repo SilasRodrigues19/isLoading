@@ -1,53 +1,33 @@
-function isLoading(close = false) {
-
+const isLoading = (close = false) => {
     if (close) {
 
         $.magnificPopup.open({
             modal: true,
             items: {
                 type: 'inline',
-                src: '#modal-cad-padrao'
+                src: '#modal'
             },
             callbacks: {
                 open: function() {
-                    $('#modal-cad-padrao').removeClass('hidden');
+                    $('#modal').removeClass('hidden');
                 }
             }
         }, 0);
-
-    } else {
-
-        $.magnificPopup.close({
-            modal: true,
-            items: {
-                type: 'inline',
-                src: '#modal-cad-padrao'
-            },
-            callbacks: {
-                close: function() {
-                    $('#modal-cad-padrao').addClass('hidden');
-                }
-            }
-        }, 0);
+        return;
 
     }
 
-}
-
-
-function loading(url = false, post = false) {
-    $.magnificPopup.open({
+    $.magnificPopup.close({
         modal: true,
         items: {
             type: 'inline',
-            src: '#modal-cad-padrao'
+            src: '#modal'
         },
         callbacks: {
-            open: function() {
-                $('#modal-cad-padrao').removeClass('hidden');
-                if (url) window.location = url;
-                if (post) document.getElementById(post).submit();
+            close: function() {
+                $('#modal').addClass('hidden');
             }
         }
     }, 0);
+
 }
