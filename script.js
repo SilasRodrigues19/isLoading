@@ -39,5 +39,5 @@ handleExample = () => {
   isLoading(true);
   setTimeout(() => {
     window.location.reload();
-  }, 2500);
+  }, 3000);
 };
