@@ -137,7 +137,7 @@ Link do projeto: [https://github.com/SilasRodrigues19/isLoading](https://github.
 [issues-url]: https://github.com/SilasRodrigues19/isLoading/issues
 [license-shield]: https://img.shields.io/github/license/SilasRodrigues19/isLoading.svg?style=for-the-badge
 [license-url]: https://github.com/SilasRodrigues19/isLoading/blob/master/LICENSE
-[product-screenshot]: ./assets/img/preview.gif
+[product-screenshot]: ../assets/img/preview.gif
 
 <br><hr>
 [🔼 Back to top](#Modal-Loader)
