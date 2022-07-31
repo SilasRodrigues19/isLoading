@@ -8,7 +8,7 @@
 <samp>
 <p align="center">
   <a href="https://is-loading.vercel.app/">
-    <img src="./android-chrome-512x512.png" alt="Logo" width="150" height="120">
+    <img src="../android-chrome-512x512.png" alt="Logo" width="150" height="120">
   </a>
 
   <h3 align="center">Modal Loader</h3>
