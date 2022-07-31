@@ -140,4 +140,4 @@ Project Link: [https://github.com/SilasRodrigues19/isLoading](https://github.com
 [product-screenshot]: ./assets/img/preview.gif
 
 <br><hr>
-[🔼 Back to top](#Axie-Infinity)
+[🔼 Back to top](#Modal-Loader)
